@@ -1,0 +1,49 @@
+Ismein hum sirf Intro likhenge backend ke baare mein ki yeh hota kya hain iske anda kya kay cheeze hoi hain yeh kaam kaise karta hain wagera .....
+
+# backend mein 2 major component hain ek programming language aur ek database ,,,  programming language jaise java,java script aur database mein mongoDB , mySQL , Post gres , SQlite , PHP , Golang yeh sabh ek tarike se framework ki tarah use hote hain 
+
+# jo browser aur backend ki conversation hoti hain woh API ke through hoti hain browser API ek tarike se response hain jo send bhi karega recieve bhi karega browser se bhi aur backend se bhii
+
+# Databse ek alag continent men hota hain
+
+# Hum java script based backend karenge mostly hum backend mein teen cheezo see deal karte hain data jaise login hofaya yaah ki data aana jaa jana aur  file mtlb pdf ko apneserver mein dalna ya store karna aur last cheez hain third party jaise cloud , aws wagera woh \ bhi hum api se karte hain
+
+# Node JS hain yeh ek tarike se java script ka runtime hain mtlb hame ismen bahut chii achii liberaries milti hain islia hum ise use krte hain jarruri nhi hain agar backend karni hain toh node JS padhni padegi hii , Hum Node JS ko chod kar Deno ya ban bi use kar sakte hain
+
+# hum jyada kaam karna prefer karenge source directory mein kyunki waha par .env mtlb hamare environment variables package.json files sabh aa jaati hain
+
+# Jab hum production par deploy karenge toh yeh environment (.env) variables kaam mein aayaenge 
+
+# actually hamari teen files hoti hain index,app or constant ..... index file mein hamari application start hoti hain jaise ki hamara database connect index file mein h hota hain  , app file mein configurations hoti hain aur cookies hogayi yeh saabh app file mei hota hain , constants iske andar hum restrict karna chahte hain ki yehi chuno yehi options honge yeh bahut important file hoti hain
+
+#  hampe kuch directories structure bhi hote hain
+1 DB
+2 Models - schema , structure , data ka model
+3 Controllers - functionalites yehi likhi jaat hain
+4 Routes- /login , /signup
+5 Middleware
+6 Utils  - utilities ( jaise ek function ko 4 jagah use karna)
+
+# deploy karna seekhenge ki deploy kaise karna hain
+# pehla yehi hain ki system mein node js download kar le baaki bhi kar sakte hain par hum abhi node js se karenge taaki hum terminal pr chala sakte
+# version ke lia  ----- node -v , npm -v
+
+# hame ismein kya karna hain kii ek taraf computer lena hain aur doosri taraf server phir server ko request deni hain aur response lena hain...
+
+# yeh request dena aur response lene mein express and mongoose ue hote hain
+
+# jb hum computer se server ko request dete hain aur response lete hain yeh sabh kaam express karta hain aur mongoose database ka hain toh isko hum abhi side rakh denge
+
+# ab jaise hamne computer se request di jaise hamne google pr postman daala toh jo profile khulkar aayegi jo page khulkar aayega woh ek tarike se response hoga aur yeh listen karta hain  aur jaisi mein postman par gaya toh use hum bolte hain / home route .... 
+
+# hampe bahut saari request aati hain jaise get,post,update,delete aur bhii hain ... hum browser mein kuch bhi likhte hain woh mostly get request hoti hain
+
+# (npm init) --- yeh command kaam aati hain tabh hum node package manager se ek appliation ko initialize karte hain npm init karne ke baad yeh hum se question bhi poochta hain par agar hamne likh diya (npm init -y) toh iska mtlb yes hain ki sabko yes kardo jo bhi pooche 
+
+# init ek utility jaise veet aur npm create react thi yeh utlity (init) kaam aati hain poora process batane ke ki package.json file kaise banani hain .. 
+
+# ab jb hum yeh saari cheez kar lenge toh package.json file banegi usmein ekoption hoga scripts waha par text hatakar mein likhunga .... "start" : "node index.js"
+
+# ab iss command ka mtlb hain kii mein jb bhi likhunga npm run start toh meri index.js file chal jayegi
+
+# mein jb apne code ko git par add karunga toh node modules aur .env mein nhi chahunga ki mein add karoon toh mein .gitignore naam ki file banaunga aur usmein node modules aur .env lkhunga phir git init karne ke baad git add. chalaunga jisse sabh add hojayega bss jo gitignore mein hain woh add nhi hoga
